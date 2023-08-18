@@ -32,10 +32,13 @@ object munieco{
 object placa{
 	var color
 	var peso
-	method color() = color
 	method material() = vidrio
 	method peso() = peso
 	method peso(unPeso){
 		peso = unPeso
+	}
+	method color() = color
+	method color(unColor){
+		color = unColor
 	}
 }
